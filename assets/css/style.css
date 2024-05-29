@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 200px;
+    padding: 2px 0;
+}
+header{
+    text-align: center;
+    background-image: url("../Images/casper.jpg");
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 450px;
+}
+header h3{
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #03247e;
+}
+header h1{
+    color: #03247e;
+    font-family: poppins, sans-serif;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 90px;
+}
+header a{
+    background-color: #03247e;
+    color: #fff;
+    padding: 15px 30px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+}
+header a:hover{
+    background-color: #fff;
+    color: #03247e;
+}
+header h4{
+    font-family: poppins, sans-serif;
+    color: #03247e;
+    background-color: white;
+}
+.welcome h1{
+    font-family: poppins, sans-serif;
+    text-align: center;
+    padding: 50px 0;
+    color: #03247e;
+}
+.content{
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+  
+}
+.content .content1{
+    width: 300px;
+    border: 1px solid grey;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    min-height: 110px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.content .content2{
+    width: 300px;
+    border: 1px solid grey;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    min-height: 110px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.content .content3{
+    width: 300px;
+    border: 1px solid grey;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    min-height: 110px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.content h2{
+    font-family: poppins, sans-serif;
+    color:#03247e;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(46, 42, 42);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+/* CSS for smaller devices */
+
+@media only screen and (max-width:600px) {
+    .logo img{
+        width: 100px;
+        padding: 10px 0;
+    }   
+
+    header{
+        height: 400px;
+        padding: 30px 0;
+    }
+
+    header h3{
+        font-size: 13px;
+    }
+
+    header h1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    header h1{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+
+    header a{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    header h4{
+        font-size: 15px;
+    }
+
+    .welcome{
+        padding: 10px;
+    }
+
+    .welcome h1{
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    .content{
+        flex-direction: column;
+        text-align: center;
+        margin: 5px auto;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .content1{
+        width: 100%;
+    }
+    .content2{
+        width: 100%; 
+    }
+    .content3{
+        width: 100%;
+    }
+}
+ 
